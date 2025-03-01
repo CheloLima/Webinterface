@@ -1,4 +1,4 @@
-export const BASE_PATH = import.meta.env.VITE_API_URL || "http://37.221.93.77:8888" // <- Edit this string to your own API
+export const BASE_PATH = import.meta.env.VITE_API_URL || "http://api.69.chelo.click/" // <- Edit this string to your own API
 export const INVITE_URL = import.meta.env.VITE_INVITE_URL || "https://invite.69.chelo.click" // <- Edit this string to your Invite link
 
 export function get(path: string) {
